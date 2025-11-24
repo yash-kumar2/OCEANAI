@@ -1,0 +1,8 @@
+flask
+flask-cors
+flask-jwt-extended
+flask-bcrypt
+pymongo
+google-generativeai
+python-docx
+python-pptx
