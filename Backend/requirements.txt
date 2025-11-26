@@ -6,3 +6,4 @@ pymongo
 google-generativeai
 python-docx
 python-pptx
+dotenv
