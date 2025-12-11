@@ -5,8 +5,8 @@ import AuthPanel from './components/AuthPanel';
 import Dashboard from './components/Dashboard';
 import Wizard from './components/Wizard';
 import EditorView from './components/Editor/EditorView';
-//http://localhost:5000
-//http://localhost:5000
+//https://oceanai-2fuc.onrender.com
+//https://oceanai-2fuc.onrender.com
 
 const App = () => {
   // --- STATE (mostly same as your original app) ---
@@ -50,7 +50,7 @@ const App = () => {
     setLoading(true);
     try {
       const endpoint = isLogin ? '/login' : '/register';
-      const res = await fetch(`${'http://localhost:5000/api'}${endpoint}`, {
+      const res = await fetch(`${'https://oceanai-2fuc.onrender.com/api'}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(authData)

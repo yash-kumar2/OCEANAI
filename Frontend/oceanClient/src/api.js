@@ -1,5 +1,5 @@
 // src/api.js
-export const API_BASE = "http://localhost:5000/api";
+export const API_BASE = "https://oceanai-2fuc.onrender.com/api";
 
 export const apiCall = async (token, endpoint, method = 'GET', body = null) => {
   const headers = { 'Content-Type': 'application/json' };

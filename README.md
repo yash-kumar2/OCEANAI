@@ -109,7 +109,7 @@ JWT_SECRET_KEY=your_super_secret_jwt_key
 GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
-*Note: The frontend currently points to `http://localhost:5000` by default. If you change the backend port, update `Frontend/oceanClient/src/api.js`.*
+*Note: The frontend currently points to `https://oceanai-2fuc.onrender.com` by default. If you change the backend port, update `Frontend/oceanClient/src/api.js`.*
 
 -----
 
@@ -124,7 +124,7 @@ You will need to run the backend and frontend in separate terminal windows.
 python backend.py
 ```
 
-*The server will start at `http://localhost:5000`.*
+*The server will start at `https://oceanai-2fuc.onrender.com`.*
 
 ### Start the Frontend
 
