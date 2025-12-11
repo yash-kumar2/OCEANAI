@@ -5,6 +5,8 @@ import AuthPanel from './components/AuthPanel';
 import Dashboard from './components/Dashboard';
 import Wizard from './components/Wizard';
 import EditorView from './components/Editor/EditorView';
+//http://localhost:5000
+//http://localhost:5000
 
 const App = () => {
   // --- STATE (mostly same as your original app) ---
